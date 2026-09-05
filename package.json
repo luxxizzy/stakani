@@ -1,0 +1,17 @@
+{
+  "name": "tumblers",
+  "version": "3.3.0",
+  "description": "Мультиплеерная игра Tumblers",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node tools/test.js",
+    "bots": "node tools/bots.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
